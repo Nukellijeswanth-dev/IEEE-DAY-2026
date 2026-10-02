@@ -1,0 +1,6 @@
+{
+  "name": "IEEE Day 2026 | SASI IEEE Student Branch (STB64284)",
+  "description": "Official IEEE Day 2026 portal of Sasi Institute of Technology & Engineering (STB64284) featuring SPS, CS, AP-S, and WIE flagship tracks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
