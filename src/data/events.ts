@@ -12,7 +12,7 @@ export const IEEE_DAY_EVENTS: EventItem[] = [
     time: "9:00 AM – 4:30 PM",
     venue: "CSE Department Seminar Hall / Lab Complex, SITE",
     teamSize: "2 Members per Team",
-    summary: "Teams pick one of 10 real-world problem statements by random lucky draw, quickly build a software prototype or app design, and present it live to the judges.",
+    summary: "Teams randomly select one of ten predefined problem statements, ideate a technology-based solution, develop a basic UI/prototype, and present it before a jury for evaluation. AI tools permitted.",
     prizeDetails: "1st Prize: ₹1,500 worth Gadgets | 2nd Prize: ₹1,000 worth Gadgets | Mementos & Official IEEE Certificates",
     registrationFees: {
       nonIeee: "₹150 per team",
@@ -20,21 +20,25 @@ export const IEEE_DAY_EVENTS: EventItem[] = [
       chapterMember: "₹50 (IEEE CS Members)"
     },
     eventFlowOrRounds: [
-      "09:00 AM - Welcome & Rules Explanation",
-      "09:45 AM - Random Problem Statement Draw",
-      "10:00 AM - Idea Discussion & Prototype Building (AI tools allowed)",
-      "12:30 PM - Project Submission & Lunch Break",
-      "01:45 PM - Slide Presentation Preparation",
-      "03:00 PM - Live Presentation to Judges & Questions",
-      "04:05 PM - Prize Distribution & Closing Ceremony"
+      "09:00 AM – 09:30 AM: Inaugural Ceremony",
+      "09:30 AM – 09:45 AM: Event Briefing & Rules",
+      "09:45 AM – 10:00 AM: Random Problem Selection (1 of 10 Statements)",
+      "10:00 AM – 12:30 PM: Solution Development (AI Tools Permitted)",
+      "12:30 PM – 01:00 PM: Prototype Link Submission",
+      "01:00 PM – 01:45 PM: Lunch Break",
+      "01:45 PM – 02:45 PM: PPT Preparation",
+      "02:45 PM – 03:00 PM: Final Submission & Presentation Preparation",
+      "03:00 PM – 04:05 PM: Team Presentations & Jury Evaluation",
+      "04:05 PM – 04:30 PM: Valedictory & Prize Distribution"
     ],
     rulesAndRubric: [
-      "AI tools are allowed for brainstorming and designing prototypes.",
-      "100-Point Scoring: Understanding Problem (15), Innovation & Idea (20), Solution Quality (20), Prototype Design (15), Technical Approach (10), Real-world Usefulness (10), Presentation & Answers (10)."
+      "Event Flow: Random Problem Selection → Ideation → Solution Development → UI/Prototype → Presentation → Jury Evaluation.",
+      "Usage of AI Tools: Permitted for ideation, coding, and UI/prototype design.",
+      "100-Mark Official Criteria: Problem Understanding (15 Marks), Ideation & Innovation (20 Marks), Solution Quality (20 Marks), UI/Prototype (15 Marks), Technical Approach (10 Marks), Feasibility (10 Marks), Presentation & Q&A (10 Marks)."
     ],
     coordinators: [
-      { name: "Ch. Jaswanth", contact: "+91 79898 18341" },
-      { name: "D. Asresha vani", contact: "+91 82972 39836" }
+      { name: "D. Asresha vani", contact: "+91 82972 39836" },
+      { name: "CH. Jaswanth", contact: "+91 79898 18341" }
     ],
     chapterLead: "Ms. Nagaboyina Jahnavi (Chair, Sasi IEEE CS Chapter)",
     registrationFormUrl: "https://forms.gle/w2DhbNM1ZYTHh1fG8"
@@ -123,28 +127,28 @@ export const IEEE_DAY_EVENTS: EventItem[] = [
     category: "Electronics & Circuits",
     dates: "October 6, 2026",
     time: "10:00 AM – 4:30 PM",
-    venue: "Nikola Tesla Block, SITE Tadepalligudem",
-    teamSize: "Arranged by committee based on registrations",
-    summary: "THINK • DESIGN • SOLVE. A hands-on technical challenge to test circuit analysis, component identification, breadboard building, and troubleshooting in association with SPS IEEE Vizag Bay Section.",
-    prizeDetails: "1st Prize: ₹2,000 Worth Gifts | 2nd Prize: ₹1,000 Worth Gifts | Official IEEE Certificates",
+    venue: "Department of ECE / Nikola Tesla Block, SITE Tadepalligudem",
+    teamSize: "Arranged by organizing committee based on registrations",
+    summary: "A technical event to test participants' knowledge of electronic components, circuit analysis, circuit building, and troubleshooting through interactive competitive rounds.",
+    prizeDetails: "1st Prize: ₹2,000 | 2nd Prize: ₹1,000 | Official IEEE Certificates",
     registrationFees: {
-      nonIeee: "₹100 (per individual)",
-      ieeeMember: "₹75 (per individual)"
+      nonIeee: "₹100 (per participant)",
+      ieeeMember: "₹75 (IEEE Members)"
     },
     eventFlowOrRounds: [
       "10:00 AM – 10:30 AM: Inaugural Ceremony",
       "10:30 AM – 11:00 AM: Attendance & Team Selection",
-      "11:00 AM – 12:00 PM: Round 1 – Components Identification (15 Marks)",
+      "11:00 AM – 12:00 PM: Round 1 – Circuit & Component Identification (15 Marks)",
       "12:00 PM – 01:00 PM: Round 2 – Circuit Analysis & Parameters (20 Marks)",
       "01:00 PM – 02:00 PM: Lunch Break",
-      "02:00 PM – 02:30 PM: Round 3 – Circuit Building on Breadboard (20 Marks)",
-      "02:30 PM – 03:30 PM: Round 4 – Troubleshooting Challenge & Faults (20 Marks)",
-      "03:00 PM – 04:00 PM: Round 5 – Rapid Fire on Electronics Concepts (25 Marks)",
+      "02:00 PM – 02:30 PM: Round 3 – Circuit Building (20 Marks)",
+      "02:30 PM – 03:30 PM: Round 4 – Troubleshooting Challenge (20 Marks)",
+      "03:00 PM – 04:00 PM: Round 5 – Rapid Fire (25 Marks)",
       "04:00 PM – 04:30 PM: Valedictory & Prize Distribution"
     ],
     rulesAndRubric: [
-      "Organized by Sasi IEEE Signal Processing Society Chapter (SBC642848) in association with SPS Chapter of IEEE Vizag Bay Section.",
-      "Venue: Nikola Tesla Block, Sasi Institute of Technology & Engineering.",
+      "Organized by Sasi IEEE Signal Processing Society Chapter (SBC642848), Dept. of ECE.",
+      "Venue: Department of Electronics and Communication Engineering, Nikola Tesla Block.",
       "100-Mark Official Criteria: Components Identification (15 Marks), Circuit Analysis (20 Marks), Circuit Building (20 Marks), Troubleshooting Challenge (20 Marks), Rapid Fire (25 Marks)."
     ],
     coordinators: [

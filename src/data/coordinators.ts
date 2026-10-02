@@ -85,20 +85,20 @@ export const STUDENT_COORDINATORS: CoordinatorContact[] = [
   // 2. Computer Society (CS Chapter)
   {
     id: 'coord-cs-1',
-    name: 'CH. Jaswanth',
-    role: 'CS Chapter Coordinator',
-    chapter: 'CS',
-    chapterName: 'Sasi IEEE Computer Society Chapter',
-    phone: '+91 79898 18341',
-    eventTitle: 'Random Sprint'
-  },
-  {
-    id: 'coord-cs-2',
     name: 'D. Asresha vani',
     role: 'CS Chapter Coordinator',
     chapter: 'CS',
     chapterName: 'Sasi IEEE Computer Society Chapter',
     phone: '+91 82972 39836',
+    eventTitle: 'Random Sprint'
+  },
+  {
+    id: 'coord-cs-2',
+    name: 'CH. Jaswanth',
+    role: 'CS Chapter Coordinator',
+    chapter: 'CS',
+    chapterName: 'Sasi IEEE Computer Society Chapter',
+    phone: '+91 79898 18341',
     eventTitle: 'Random Sprint'
   },
 
